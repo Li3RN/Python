@@ -4,24 +4,24 @@ Este script permite descargar publicaciones (fotos, videos y reels) de un perfil
 
 ## Aviso Importante
   Instagram detecta y puede bloquear actividades automatizadas. El uso excesivo o abusivo de este script puede resultar en el cierre temporal o permanente de la cuenta de Instagram. Utiliza este script de manera responsable y de acuerdo con los términos de uso de Instagram. Se recomienda hacer uso moderado y siempre contar con el consentimiento adecuado para evitar consecuencias negativas.
-- **Uso Responsable:**
+- **Uso Responsable:** :white_check_mark:
   Asegúrate de cumplir con los términos de uso de Instagram y de respetar la privacidad de los usuarios. Este script se proporciona con fines educativos y para uso personal.
 
-## Características
+## Características :star: :warning:
 
-- **Autenticación Completa:**  
+- **Autenticación Completa:**  :lock:
   Se conecta a Instagram utilizando tus credenciales. Si tu cuenta tiene autenticación de dos factores (2FA), se solicita el código correspondiente.
 
-- **Selección Dinámica:**  
+- **Selección Dinámica:**  :gear: 
   Permite ingresar el número de publicaciones a descargar y especificar la ruta de guardado para el material descargado. La ruta puede ser relativa (en relación al directorio actual) o absoluta.
 
-- **Soporte para Contenido Variado:**  
+- **Soporte para Contenido Variado:**  :framed_picture: :movie_camera:
   Descarga publicaciones que pueden incluir fotos, videos y reels.
 
-- **Retardo entre Descargas:**  
+- **Retardo entre Descargas:**  :hourglass_flowing_sand:
   Introduce un retardo de 1 segundo entre cada descarga para reducir el riesgo de bloqueos por parte de Instagram.
 
-## Requisitos
+## Requisitos :clipboard:
 
 - **Python 3.6 o superior**
 - **Instaloader:**  
@@ -29,4 +29,4 @@ Este script permite descargar publicaciones (fotos, videos y reels) de un perfil
   ```bash
   pip install instaloader
 
-### v1.0.0
+### v1.0.0 :tada:
