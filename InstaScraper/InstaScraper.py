@@ -23,8 +23,8 @@ save_path = input("Introduce la ruta de guardado para el material descargado (Pu
 if not os.path.exists(save_path):
     os.makedirs(save_path)
 
-# Obtener el perfil (reemplaza 'nombre_de_usuario' por el perfil deseado)
-profile = instaloader.Profile.from_username(L.context, "nombre_de_usuario")
+# Obtener el perfil (reemplaza 'NOMBRE_DE_USUARIO' por el perfil deseado)
+profile = instaloader.Profile.from_username(L.context, "NOMBRE_DE_USUARIO")
 
 # Descargar las publicaciones solicitadas (incluye fotos, videos y reels)
 for i, post in enumerate(profile.get_posts()):

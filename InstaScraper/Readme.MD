@@ -2,6 +2,11 @@
 
 Este script permite descargar publicaciones (fotos, videos y reels) de un perfil de Instagram utilizando la librería [Instaloader](https://github.com/instaloader/instaloader). Permite autenticarse (incluyendo la autenticación de dos factores) y elegir tanto el número de publicaciones a descargar como la ruta de guardado (ruta absoluta o relativa).
 
+## Aviso Importante
+  Instagram detecta y puede bloquear actividades automatizadas. El uso excesivo o abusivo de este script puede resultar en el cierre temporal o permanente de la cuenta de Instagram. Utiliza este script de manera responsable y de acuerdo con los términos de uso de Instagram. Se recomienda hacer uso moderado y siempre contar con el consentimiento adecuado para evitar consecuencias negativas.
+- **Uso Responsable:**
+  Asegúrate de cumplir con los términos de uso de Instagram y de respetar la privacidad de los usuarios. Este script se proporciona con fines educativos y para uso personal.
+
 ## Características
 
 - **Autenticación Completa:**  
