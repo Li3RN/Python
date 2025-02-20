@@ -30,3 +30,4 @@ Este script permite descargar publicaciones (fotos, videos y reels) de un perfil
   pip install instaloader
 
 ### v1.0.0 :tada:
+[**Distribuido bajo licencia MIT**](LICENSE)
