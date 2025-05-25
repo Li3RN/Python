@@ -1,4 +1,35 @@
-# v1.0.0
+##############################################################################################################
+#                                  |                                                                         #
+# Title        : InstaScraper      |                           _   ______       _ __                         #
+# Language     : Python            |                          / | / / __ \___  (_) /                         #
+# Author       : NReiL             |                         /  |/ / /_/ / _ \/ / /                          #
+# Version      : 1.0               |                        / /|  / _, _/  __/ / /___                        #
+# Category     : Scraper           |                       /_/ |_/_/ |_|\___/_/_____/                        #
+# Target       : Instagram         |                                                                         #
+# Mode         : ---               |                                                                         #
+#__________________________________|_________________________________________________________________________#
+#  github.com/Li3RN                                                                                          #
+##############################################################################################################
+
+"""
+.SYNOPSIS
+        Este script pide un número de publicaciones y una carpeta de guardado, se conecta y se autentica en
+        instagram y descarga ese número de publicaciones.
+
+.DESCRIPTION
+        El script utiliza la librería Instaloader para conectarse a Instagram, autenticar a un usuario
+        (manejando la autenticación de dos factores si es necesario), y luego descargar un número específico
+        de las publicaciones más recientes (fotos, vídeos y reels) de un perfil de Instagram objetivo.
+        El usuario puede especificar el perfil del cual descargar, cuántas publicaciones desea obtener y
+        la ruta en el sistema de archivos donde se guardará el contenido descargado.
+        El material se organiza en una carpeta con el nombre del perfil dentro de la ruta de guardado.
+
+.LINK
+        https://instaloader.github.io/                               # Documentación de Instaloader
+        https://github.com/instaloader/instaloader                   # Repositorio de Instaloader en GitHub
+
+"""
+
 import time
 import os
 import instaloader
